@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using RazorPagesSampleApp.Models;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RazorPagesTodo.Web.Models;
 
-namespace RazorPagesSampleApp.Services
+namespace RazorPagesTodo.Web.Services
 {
     public class TodoDbContext : DbContext, ITodoRepository
     {

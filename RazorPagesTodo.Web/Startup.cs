@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using RazorPagesSampleApp.Services;
-using RazorPagesSampleApp.Models;
+using RazorPagesTodo.Web.Models;
+using RazorPagesTodo.Web.Services;
 
-namespace RazorPagesSampleApp
+namespace RazorPagesTodo.Web
 {
     public class Startup
     {

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace RazorPagesSampleApp.Models
+namespace RazorPagesTodo.Web.Models
 {
     public class Todo
     {
